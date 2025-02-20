@@ -1,4 +1,3 @@
-
 public class MusicBox {
     // Variables
     private String songID;
@@ -78,5 +77,16 @@ public class MusicBox {
             }
         }
     }
-}
 
+   
+    public void displaySongDetails() {
+        System.out.println("Song ID: " + songID);
+        System.out.println("Song Title: " + songTitle);
+        System.out.println("Song Artists: " + songArtists);
+        System.out.println("Song Album: " + songAlbum);
+        System.out.println("Song Genre: " + songGenre);
+        System.out.println("Song Producer: " + songProducer);
+        System.out.println("Song Music Label: " + songMusicLabel);
+        System.out.println("Is Song Premium: " + isSongPremium);
+    }
+}
